@@ -7,7 +7,7 @@ function getUserNumberInput() {
 
 function createAndWriteOutput(operator, resultBeforeCal, calNumber) {
   const calcDescription = `${resultBeforeCal} ${operator} ${calNumber}`;
-  outputResult(currentResult, calcDescription);
+  outputResult(currentResult, calcDescription); // From vendor.js
 }
 
 function add() {
