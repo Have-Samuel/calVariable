@@ -3,7 +3,7 @@ let currentResult = defaultResult;
 let logEntries = [];
 
 function getUserNumberInput() {
-  return parseInt(userInput.value);
+  return userInput.value;
 }
 
 function createAndWriteOutput(operator, resultBeforeCal, calNumber) {
